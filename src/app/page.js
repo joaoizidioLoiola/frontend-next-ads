@@ -10,7 +10,7 @@ export default function page() {
         <h1 className="text-3xl">
           Lorem ipsum dolor
           <Image
-            src={"/img/logoR.png"}
+            src={'/img/React.webp'}
             width={250}
             height={250}
             alt="Logo React"
