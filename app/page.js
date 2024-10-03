@@ -6,16 +6,16 @@ export default function page() {
   return (
     <>
       <Header />
-      <main>
+      <main className="p-5">
         <h1 className="text-3xl">
           Lorem ipsum dolor
-          <Image
-            src={'/img/React.webp'}
-            width={250}
-            height={250}
-            alt="Logo React"
-          />
-        </h1>{" "}
+        </h1>
+        <Image
+          src={'/img/React.webp'}
+          width={250}
+          height={250}
+          alt="Logo React"
+        />
         sit amet consectetur adipisicing elit. Suscipit, ipsum? Temporibus ullam
         ut recusandae voluptatum hic atque quas pariatur omnis nesciunt! Esse
         eum possimus maxime eius nihil at dolor alias.
