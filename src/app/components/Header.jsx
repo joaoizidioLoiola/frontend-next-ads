@@ -1,5 +1,6 @@
 import { VscGraphLine as LogoIFVest } from "react-icons/vsc";
 import { FaRegUser as IconUser } from "react-icons/fa";
+import { NavBar } from "./NavBar";
 
 export default function Header({ isLogged, user }) {
   return (
@@ -11,6 +12,7 @@ export default function Header({ isLogged, user }) {
         </p>
       )}
       {isLogged && <IconUser className="text-white text-3xl" />}
+      <NavBar />
     </div>
   );
 }
